@@ -210,6 +210,6 @@ class collections(Resource):
 		conn.close()
 		return result,200
 
-#if __name__ == '__main__':
-	#create_db("data")
-	#app.run(debug=True)
+if __name__ == '__main__':
+	create_db("data")
+	app.run(debug=True)
